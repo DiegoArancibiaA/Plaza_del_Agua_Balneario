@@ -1,0 +1,2590 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<RealTimeDB>
+<AreaData NumInput="32768" NumOutput="32768" NumFlag="32768" UseSharedMemory="0" EnableInUseVarMng="0" EnableTimeStampNotifying="0" UseSharedDynTag="0" UseInputImage="0" UseOutputImage="0" PurgeDynTagTimer="20000" RetWriteDelay="5"/>
+<EnableRetFlags RetFlagFrom="0" RetFlagTo="16384">0</EnableRetFlags>
+<EnableRetInput RetInputFrom="0" RetInputTo="16384">0</EnableRetInput>
+<EnableRetOutput RetOutputFrom="0" RetOutputTo="16384">0</EnableRetOutput>
+<EnableOPCUAServer UAAccessLevel="0">0</EnableOPCUAServer>
+<EnableOPCServer OPCServerName="" OPCServerDescription="" EnableOPCServerAE="0" EnableOPCServerDynTag="1" OPCServerDebugEvents="0" OPCServerAutoShutdown="0" OPCServerAutoUnregister="0" OPCServerAutoRegister="0" OPCServerRefreshRate="250" OPCServerShutdownClientsTimeout="5000" OPCServerEnableAEAck="0" OPCServerThreadingMode="1" SINGLE_PATH_SEPARATOR="$" DOUBLE_PATH_SEPARATOR="$$" OPX_PATH_SEPARATOR="~">0</EnableOPCServer>
+<EnableOPXServer Transport="HTTP" Port="9090" AccepterThreads="10" MinThreadPool="5" MaxThreadPool="20" RequestBacklog="5" RequestTimeout="60000" RequestBuffersize="4096" KeepAlive="0" VendorInfo="" EnableSecurity="0" MinAccLevel="0">0</EnableOPXServer>
+<EnableNTSecurityOPCServerTag OPCServerMinImpersonationLevel="0">0</EnableNTSecurityOPCServerTag>
+<szTraceDBSettings RecycleDBConnection="1" SendAdministrativeAlert="1" MaxError="1" MaxNumberTrans="10" Dsn="" User="" TimeCol="" MSecCol="" LocalTimeCol="" UserCol="" ChangerCol="" ValueBeforeCol="" ValueAfterCol="" ValueCol="" QualityCol="" TimeStampCol="" VarNameCol="" VarGroupNameCol="" VarDescriptionCol="" MaxCacheBeforeFlush="32767" DefVarCharPrecision="255" UseInMemoryDB="0" IMDBSharedTable="0" IMDBSaveColumnName="1" IMDBExportXMLTable="0" IMDBExportCSVTable="0" IMDBCryptFile="0" SecWriteBehindDelay="10" MaxRecordsNumber="10000" cIMDBDelimiter="" cIMDBEndOfLine=""/>
+<RealTimeODBCSettings RecycleDBConnection="1" SendAdministrativeAlert="1" MaxError="3" MaxNumberTrans="10" Dsn="" User="" DefVarCharPrecision="255" TableName="" NameCol="" ValueCol="" MinValueCol="" MaxValueCol="" AveValueCol="" TotalTimeCol="" LastTimeOnCol=""/>
+<VariableList>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_OUTPUT_Frequency_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_OUTPUT_Frequency_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Motor_Power_1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_OUTPUT_Frequency_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Motor_Power_2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Falla_Termica</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Motor_Power_3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_HORA_TERMINO</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V60</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L50</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EL_L61</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V61</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L51</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L52</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L53</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L54</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L55</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L56</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Motor_Power_1_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L57</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L58</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VDF_OPERATIVO_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VALOR_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V30</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L59</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VDF_OPERATIVO_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VALOR_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V31</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VDF_OPERATIVO_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VALOR_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V32</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V33</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V34</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V35</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V36</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V37</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V38</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V39</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_QM_NOCTURNO</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_A_MODO_NOCTURNO</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Motor_Power_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Motor_Power_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Motor_Power_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L60</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L61</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V40</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V41</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V42</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V43</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V44</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V45</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V46</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V47</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V48</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V49</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V50</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_DETENER_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V51</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V5</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_DETENER_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V52</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L5</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_DETENER_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V53</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V6</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L6</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_DETENER_B4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V54</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V7</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L7</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_DETENER_B5</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V55</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V8</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L8</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V56</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V9</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L9</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V57</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V58</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V59</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VALOR_E_FREC_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="9" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_AÃ_O</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VALOR_E_FREC_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VALOR_E_FREC_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_PILOTO_INICAR_RT</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V60</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V61</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_GIRO_HORARIO_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_GIRO_HORARIO_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_GIRO_HORARIO_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="4" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_WRITE_FRECUEN_SETTING_1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_RESET_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="4" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_WRITE_FRECUEN_SETTING_2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_RESET_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="4" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_WRITE_FRECUEN_SETTING_3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_RESET_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_STOP_SECUENCIA</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_STOP_EFECTO</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V10</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V11</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V12</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V13</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V14</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V15</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V16</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V17</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_HABILITAR_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V18</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_HABILITAR_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V19</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_HABILITAR_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_B4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_B5</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_INICIAR_RT</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Valor_Frecuencia_Setting_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Valor_Frecuencia_Setting_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Valor_Frecuencia_Setting_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V20</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L10</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V21</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L11</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V22</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L12</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V23</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L13</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V24</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L14</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_HABILITAR_VDF1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V25</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L15</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_HABILITAR_VDF2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V26</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L16</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_HABILITAR_VDF3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V27</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L17</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V28</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L18</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_E1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V29</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L19</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_E2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Output_Current_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_E3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Output_Current_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Output_Current_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_SECUENCIA_1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_SECUENCIA_2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_SECUENCIA_3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_SECUENCIA_4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VDF_OPERATIVO</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V30</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L20</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V31</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L21</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V32</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L22</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V33</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L23</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V34</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L24</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V35</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L25</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Driver_Termal_State_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V36</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L26</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Driver_Termal_State_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V37</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L27</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Driver_Termal_State_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V38</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L28</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V39</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L29</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_ACTIVAR_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_ACTIVAR_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_ACTIVAR_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_ACTIVAR_B4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_ACTIVAR_B5</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="4" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_WRITE_VDF_2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="4" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_WRITE_VDF_3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Guardamotor_1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Guardamotor_2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Guardamotor_3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Guardamotor_4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Guardamotor_5</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V40</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L30</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V41</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L31</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V42</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L32</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V43</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L33</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VDF_FALLA_F022_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V44</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L34</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VDF_FALLA_F022_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V45</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L35</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VDF_FALLA_F022_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V46</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L36</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V37</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V47</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L37</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V38</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V48</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L38</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V39</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V49</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L39</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V40</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V50</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L40</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V41</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V51</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L41</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V42</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V52</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L42</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V53</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L43</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V43</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V54</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L44</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V44</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_activar_modbus</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V55</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L45</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V45</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V56</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L46</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V46</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L37</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V57</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_L47</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V47</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V58</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V48</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L38</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V10</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V59</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V49</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L39</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V11</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V12</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V13</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V14</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V15</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V16</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V17</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_ES4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V18</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_ES5</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_VDF_FALLA_F022</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V19</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_ES6</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_5</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Efecto_6</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V50</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L40</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V60</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V51</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L41</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MML_V61</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V52</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L42</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Frequency_Reference_B1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V53</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L43</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Frequency_Reference_B2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V54</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L44</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="3" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Frequency_Reference_B3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V55</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L45</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V56</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L46</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V57</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L47</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V58</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L48</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V20</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_V59</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_MME_L49</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V21</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_DETENER_RT</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V22</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_ACTIVAR_SECUENCIA_1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V23</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_ACTIVAR_SECUENCIA_2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V24</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V1</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_ACTIVAR_SECUENCIA_3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V25</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V2</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_ACTIVAR_SECUENCIA_4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V26</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V3</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V27</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V4</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V28</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V5</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V29</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V6</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V7</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V8</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+<Variable>
+<Name Type="0" AreaType="1" Address="0" Bit="0" Shared="0" Retentive="0">PLCnext_Arp_Plc_Eclr_Q_EV_V9</Name>
+<EnableTrace DurationDays="7">0</EnableTrace>
+<EnableOPCUAServer>0</EnableOPCUAServer>
+<EnableOPCServer>0</EnableOPCServer>
+<EnableNetworkClient>0</EnableNetworkClient>
+<EnableMapRealTimeToDB>0</EnableMapRealTimeToDB>
+</Variable>
+</VariableList>
+<DriverList>
+<Driver>
+<Name FileName="SuetronHWAccess.dll">Phoenix Contact Hardware Access</Name>
+</Driver>
+</DriverList>
+<RenamedVariables/>
+<StructureList/>
+</RealTimeDB>

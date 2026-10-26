@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DLAndRecipe>
+<DLRecipeList>
+<DLRecipe>
+<Name CRWFile="" printer="" Enabled="1" IsRecipe="0" EnableTimeFromTo="0" RecordOnTime="1" RecordOnVariable="0" RecordOnChange="0" RecordOnQualityGood="0" EnableDeadBand="0" DeadBandPercent="1" DeadBand="30" TimeRecHour="0" TimeRecMin="0" TimeRecSec="5" TimeRecMsec="0" EnableTimeFrom="2026-10-16T11:34:04Z" EnableTimeTo="2026-10-16T11:34:04Z">Registro</Name>
+<DSN TableName="" RecycleDBConnection="1" SendAdministrativeAlert="1" MaxError="3" MaxNumberTrans="10" MaxCacheBeforeFlush="32767" User="" VarCharsMax="255" TimeCol="" LocalTimeCol="" MSecCol="" ReasonColName="" UserColName="" DurationDays="7" DurationHours="0" DurationMinutes="0" UseInMemoryDB="1" IMDBSharedTable="1" IMDBSaveColumnName="1" IMDBExportXMLTable="0" IMDBExportCSVTable="0" IMDBCryptFile="0" SecWriteBehindDelay="10" MaxRecordsNumber="10000" cIMDBDelimiter="" cIMDBEndOfLine=""/>
+<Variables Record="" Print="" Reset="" Status="" EnableTime=""/>
+<ColumnList>
+<Column>
+<Name Variable="PLCnext_Arp_Plc_Eclr_INICIAR_RT" TempVar="" Type="0" RecipeIndex="0" AddQualityCol="0" QualityColName="" AddTimeStampCol="0" TimeStampColName="" AddNumUpdatesCol="0" NumUpdatesColName="">PLCnext_Arp_Plc_Eclr_INICIAR_RT</Name>
+</Column>
+</ColumnList>
+</DLRecipe>
+</DLRecipeList>
+</DLAndRecipe>
